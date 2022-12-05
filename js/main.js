@@ -8,6 +8,6 @@ createApp({
         }
     },
     mounted() {
-
+        console.log('ciao');
     }
 }).mount('#app')
