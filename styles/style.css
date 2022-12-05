@@ -1,0 +1,45 @@
+header {
+    background-color: #06131f;
+    height: 70px;
+
+
+    color: white;
+}
+
+body {
+    background-color: #1d2d3c;
+}
+
+
+.mc-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*  header */
+
+.logo-area {
+    width: 50px;
+}
+
+.logo-area img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* cards */
+.mc-card {
+    padding: 30px;
+
+    background-color: #112030;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 7px;
+}
+
+.img-area img {
+    width: 180px;
+}

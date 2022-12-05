@@ -11,17 +11,41 @@
 
     <!-- VueJs -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
     <title>PHP Dischi</title>
 </head>
 
 <body>
     <div id="app">
-        <header></header>
+        <header>
+            <div class="mc-container d-flex align-items-center h-100">
+                <div class="logo-area">
+                    <img src="./assets/img/spotify-logo-png-7053.png" alt="">
+                </div>
+            </div>
+        </header>
         <main>
-            <h1>HELLO</h1>
+            <div class="wrapper py-5">
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="mc-card">
+                                <div class="img-area">
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" alt="">
+                                </div>
+                                <div class="text-area text-center">
+                                    <h4 class="mt-3">New Jersey</h4>
+                                    <span class="d-block mb-2">Bon Jovi</span>
+                                    <span>1988</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>
