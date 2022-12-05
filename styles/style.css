@@ -29,7 +29,7 @@ body {
 
 /* cards */
 .mc-card {
-    padding: 30px;
+    padding: 10px;
 
     background-color: #112030;
     color: white;
@@ -38,6 +38,10 @@ body {
     align-items: center;
 
     border-radius: 7px;
+    min-width: 330px;
+    max-height: 340px;
+
+    cursor: pointer;
 }
 
 .img-area img {

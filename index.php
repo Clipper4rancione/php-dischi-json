@@ -29,17 +29,17 @@
         </header>
         <main>
             <div class="wrapper py-5">
-                <div class="container p-5">
-                    <div class="row">
-                        <div class="col-4" v-for="(album, index) in albums" :key="index">
+                <div class="mc-container">
+                    <div class="row ">
+                        <div class="col-4 my-3 d-flex justify-content-center" v-for="(album, index) in albums" :key="index">
                             <div class="mc-card">
                                 <div class="img-area">
                                     <img :src='album.poster' :alt="album.title">
                                 </div>
                                 <div class="text-area text-center">
-                                    <h4 class="mt-3">New Jersey</h4>
-                                    <span class="d-block mb-2">Bon Jovi</span>
-                                    <span>1988</span>
+                                    <h4 class="mt-3">{{album.title}}</h4>
+                                    <span class="d-block mb-2">{{album.author}}</span>
+                                    <span>{{album.year}}</span>
                                 </div>
                             </div>
                         </div>
